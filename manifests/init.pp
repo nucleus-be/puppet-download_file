@@ -69,6 +69,7 @@ define download_file(
   $proxy_user                        = '',
   $proxy_password                    = '',
   $is_password_secure                = true,
+  Boolean $allow_insecure_ssl        = false,
   Optional[Integer] $timeout         = undef,
   Optional[Array[String]] $cookies   = undef,
   Optional[String] $user_agent       = undef
